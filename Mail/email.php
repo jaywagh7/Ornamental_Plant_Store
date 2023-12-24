@@ -16,8 +16,8 @@ if(isset($_POST["submit"]))
     $name=$_POST["name"];
     $message=$_POST["msg"];
  
-	$receiver_email="Caara09bdall@gmail.com";
-	$company_name="A R COMPUTERS SUPPORT";
+	$receiver_email="jayeshwagh@gmail.com";
+	$company_name="Plant Store";
 	
 	
     $mail = new PHPMailer(true); 
@@ -27,11 +27,11 @@ if(isset($_POST["submit"]))
     	$mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = '13203031@iubat.edu';  // Sender Email
+        $mail->Username = 'jay';  // Sender Email
         $mail->Password = '13203031';	// Sender Email Pass
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
-        $mail->SetFrom('info@gmail.com','SUPPORT MAIL OF AR COMPUTERS'); // Sender Name 
+        $mail->SetFrom('info@gmail.com','SUPPORT MAIL OF Plant Store'); // Sender Name 
         $mail->SMTPOptions = array(
             'ssl' => array(
                 'verify_peer' => false,
