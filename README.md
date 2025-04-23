@@ -23,7 +23,7 @@ An e-commerce website designed to showcase and sell ornamental plants online. Th
 ---
 
 ## 📂 Project Structure
-
+```bash 
 ORNAMENTAL_PLANT_STORE/
 ├── .vs/                       # Visual Studio config
 ├── .vscode/                   # VSCode config
@@ -35,7 +35,6 @@ ORNAMENTAL_PLANT_STORE/
 ├── js/                        # JavaScript files
 ├── Mail/                      # Email handling scripts
 ├── user/                      # User profile and related pages
-
 ├── account.php
 ├── all_products.php
 ├── category_product_list.php
@@ -61,7 +60,7 @@ ORNAMENTAL_PLANT_STORE/
 ├── user_register.php
 ├── view_category.php
 
-
+```
 ---
 
 ## 💻 Setup Instructions
