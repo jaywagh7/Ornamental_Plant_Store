@@ -92,5 +92,5 @@ ORNAMENTAL_PLANT_STORE/
 -Place the project folder inside your server’s web directory (e.g., htdocs for XAMPP).
 -Open your browser and go to:
 ```bash
-  http://localhost/ORNAMENTAL_PLANT_STORE/ ```
+  http://localhost/ORNAMENTAL_PLANT_STORE/ 
 
