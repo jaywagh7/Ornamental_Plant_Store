@@ -84,8 +84,8 @@ ORNAMENTAL_PLANT_STORE/
 
   -Open database.php.
   -Replace the credentials with your local MySQL config:
- 
- ```bash $con = mysqli_connect("localhost", "root", "", "ornamental_store"); `
+ ```bash 
+    $con = mysqli_connect("localhost", "root", "", "ornamental_store"); 
 
 5.**Run the project**:
 
