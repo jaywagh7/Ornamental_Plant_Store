@@ -71,7 +71,8 @@ ORNAMENTAL_PLANT_STORE/
    git clone https://github.com/your-username/ORNAMENTAL_PLANT_STORE.git
    
 2. **Navigate into the project directory**:
-    cd ORNAMENTAL_PLANT_STORE
+  
+  ```bash  cd ORNAMENTAL_PLANT_STORE 
    
 3.**Set up the MySQL database**:
 
@@ -84,12 +85,13 @@ ORNAMENTAL_PLANT_STORE/
   -Open database.php.
   -Replace the credentials with your local MySQL config:
  
-  $con = mysqli_connect("localhost", "root", "", "ornamental_store");
+ ```bash $con = mysqli_connect("localhost", "root", "", "ornamental_store"); `
 
 5.**Run the project**:
 
 -Start your local web server (XAMPP, WAMP, etc.).
 -Place the project folder inside your server’s web directory (e.g., htdocs for XAMPP).
 -Open your browser and go to:
+```bash
   http://localhost/ORNAMENTAL_PLANT_STORE/
 
